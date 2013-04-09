@@ -26,6 +26,8 @@ public class MainActivity extends Activity {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
+    	//Andres: No se que hace esta linea
+    	requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
         // Creamos la nueva instancia de la clase, y le enviamos como contexto
         // nuestra actividad
@@ -35,7 +37,6 @@ public class MainActivity extends Activity {
         // Definimos que la aplicacion ocupe toda la pantalla
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
     }
  
     //Esta clase hay que crearla como una VIEW, porque para dibujar una bola recorriendo la pantalla hay que usar CANVAS, y para eso hay que hacerlo con una VIEW.
