@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
     	//Andres: No se que hace esta linea
-    	requestWindowFeature(Window.FEATURE_NO_TITLE);
+    	requestWindowFeature(Window.FEATURE_NO_TITLE); 
         super.onCreate(savedInstanceState);
         // Creamos la nueva instancia de la clase, y le enviamos como contexto
         // nuestra actividad
