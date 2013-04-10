@@ -27,6 +27,7 @@ public class MainActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
     	//Andres: No se que hace esta linea
+    	//Antonio: Se usa para quitar la barra de titulo, y que la aplicacion salga en FullScreen sin nada mas.
     	requestWindowFeature(Window.FEATURE_NO_TITLE); 
         super.onCreate(savedInstanceState);
         // Creamos la nueva instancia de la clase, y le enviamos como contexto
