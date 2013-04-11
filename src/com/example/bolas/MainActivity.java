@@ -67,6 +67,10 @@ public class MainActivity extends Activity {
                 // Le definimos como listener "this" (nuestra clase) el sensor
                 // que hemos obtenido, y le definimos una frequencia
                 // SENSOR_DELAY_GAME
+                
+                
+                //Antonio: Porfin !, esta es la puta linea que trata el tema de la velocidad de la bola, va enr elacion con la frecuencia de datos que obtenemos.....
+                //ACEPTA 4 variables, CONTROL+SPACE para verlas, donde dice SENSOR_DELAY_GAME...hasta ahora es lo poco que he encontrado para poder modificar el tema de la velocidad.
                 if (!manager.registerListener(this, accelerometer,
                         SensorManager.SENSOR_DELAY_GAME)) {
                     // Aqui podemos mostrar un mensaje de error en caso de que
